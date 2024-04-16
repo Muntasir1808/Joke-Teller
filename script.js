@@ -31,7 +31,7 @@ async function getJokes() {
             //two parts jokes contains setup and delivery variable. To identify them ... is used in between.
             joke = `${data.setup} ...${data.delivery}`;
         }else {
-            data.joke;
+            joke = data.joke;
         }
         console.log(joke);
 
